@@ -1,48 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Tabela e Formulário</title>
+<title>JOGOS</title>
+ <link rel="stylesheet" href="recursos/css/estilo.css">
 </head>
 <body>
-
-<table border="4">
-    <tr>
-        <td>Nome</td>
-        <td>Idade</td>
-        <td>Profissão</td>
-    </tr>
-    <tr>
-        <td>Gabriel</td>
-        <td>22</td>
-        <td>Engenheiro</td>
-    </tr>
-    <tr>
-        <td>Ralf</td>
-        <td>26</td>
-        <td>Designer de grafico</td>
-    </tr>
-	
-</table>
-<form action="/pagina-processa-dados-do-form" method="post">
-  <div>
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" />
-  </div>
-  <div>
-    <label for="email">E-mail:</label>
-    <input type="email" id="email" />
-  </div>
-  <div>
-    <label for="msg">Mensagem:</label>
-    <textarea id="msg"></textarea>
-  </div>
-     <div class="button">
-    <button type="submit">Enviar mensagem</button>
+<ul>
+	<li>
+	<a href="#">login</a>
+	</li>
+</ul>
+	<div id="fade" class="hide">
+	<div id="modal_card" class="hide">
+		<a href="#" onclick="forgtPasswordModa()">sair</a>
+		<h2>Esqueceu a senha ?</h2>
+		<label for="new_password">Altere sua senha</label>
+		<input type="text" name="new_password" id="new_password" placeholder="Digite sua senha">
+		<input type="submit" value="Entrar" onclick="new_password()
+	</div>
 </div>
-</form>
-
-
-
-
+ <script src="recursos/js/app.js"></script>
 </body>
+
 </html>
