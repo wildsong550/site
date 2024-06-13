@@ -7,19 +7,41 @@
 <body>
 <ul>
 	<li>
-	<a href="#">login</a>
+	<a href="#" onclick="forgotPasswordModal()">login</a>
 	</li>
 </ul>
 	<div id="fade" class="hide">
 	<div id="modal_card" class="hide">
-		<a href="#" onclick="forgtPasswordModa()">sair</a>
+		<a href="#" onclick="forgotPasswordModal()">sair</a>
 		<h2>Esqueceu a senha ?</h2>
 		<label for="new_password">Altere sua senha</label>
 		<input type="text" name="new_password" id="new_password" placeholder="Digite sua senha">
-		<input type="submit" value="Entrar" onclick="new_password()
+		<input type="submit" value="Entrar" onclick="new_password()">
 	</div>
 </div>
  <script src="recursos/js/app.js"></script>
-</body>
 
+	<header id="header_home">
+<nav>
+	<div id="logo">
+		<img src="recursos/img/site/logonota10.jpg" alt="logo">
+	</div>
+	<ul>
+		<li>nome</li>
+		<li><img src="" alt="Foto Usuario"></li>
+		<li><a href="#">Sair</a></li>
+	</ul>
+</nav>
+	</header>
+	<section id="side_menu">
+		<ul>
+			<li><a href="cadastrar_pessoa.html">Cadastrar Pessoas</a></li>
+			<li><a href="listar_pessoa.html">Lista Pessoa</a></li>
+			<li><a href="matricula.html">matricula</a></li>
+			<li><a href="listar_matriculas.html">Listar Pessoas</a></li>
+		</ul>
+	</section>
+
+	<script src="recursos/js/app.js"></script>
+</body>
 </html>
